@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles/common.css">
+  <title>Stay Finder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+    }
+    header, footer {
+      background-color: #343a40;
+      color: #ffffff;
+      text-align: center;
+      padding: 10px 0;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 10px;
+    }
+    .filters, .places {
+      margin-bottom: 20px;
+      padding: 15px;
+      background: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .filters h3, .places h1 {
+      color: #007bff;
+    }
+    .filters div, .places article {
+      margin: 10px 0;
+    }
+    .filters button {
+      display: block;
+      margin: 10px auto;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .places article {
+      border: 1px solid #dee2e6;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      padding: 15px;
+      background-color: #ffffff;
+    }
+    .places h2 {
+      color: #343a40;
+      margin: 0;
+    }
+    .price_by_night {
+      color: #28a745;
+      font-size: 1.2em;
+    }
+    .amenities ul, .reviews ul {
+      list-style: none;
+      padding: 0;
+    }
+    .amenities li, .reviews li {
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Stay Finder</h1>
+  </header>
+  <div class="container">
+    <section class="filters">
+      <h3>Filter Your Stay</h3>
+      <div>
+        <strong>Locations:</strong>
+        <ul>
+          <li>Delta: Asaba, Agbor</li>
+          <li>Niger: Minna, Paiko</li>
+        </ul>
+      </div>
+      <div>
+        <strong>Amenities:</strong>
+        <ul>
+          <li>Internet, TV, Kitchen, Iron</li>
+        </ul>
+      </div>
+      <button>Search</button>
+    </section>
+    <section class="places">
+      <h1>Available Places</h1>
+      <
